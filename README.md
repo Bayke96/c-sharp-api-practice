@@ -1,0 +1,2 @@
+# c-sharp-api-practice
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bf5ea9b857f5431384831ef1f06b93e7)](https://app.codacy.com/app/Bayke96/c-sharp-api-practice?utm_source=github.com&utm_medium=referral&utm_content=Bayke96/c-sharp-api-practice&utm_campaign=Badge_Grade_Dashboard)
