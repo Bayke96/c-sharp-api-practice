@@ -64,7 +64,6 @@ namespace TechnicalTest.Servicios.Clases
         {
             using(var context = new ServicesContext())
             {
-                var factura = context.facturas.FirstOrDefault(x => x.ID == facturaID);
                 var listaProductos = context.detallesFacturas.Where(x => x.facturaFK == facturaID).ToList();
                 for(int i = 0; i < listaProductos.Count; i++)
                 {
