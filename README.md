@@ -4,11 +4,11 @@
 API de practica creada bajo la arquitectura REST
 
 - Herramientas utilizadas:
-	ASP.NET MVC
-	C# como backend, 
-	Entity Framework 6 ( Code First )
-	JSON.NET
-	Microsoft SQL Server
+	- ASP.NET MVC para aplicar la arquitectura MVC.
+	- C# para la codificacion del backend.
+	- Entity Framework 6 ( Code First ) para el modelado de datos y servicios.
+	- JSON.NET para manejar objetos JSON.
+	- Microsoft SQL Server para la base de datos.
 
 - API Endpoints:
 
