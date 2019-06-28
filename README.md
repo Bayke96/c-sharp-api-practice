@@ -11,7 +11,7 @@ API de practica creada bajo la arquitectura REST
 	- Microsoft SQL Server para la base de datos.
 
 - API Endpoints:
-- Clientes:
+	- Clientes:
 
 		GET:	/clientes - Retorna los datos de todos los clientes.
 
@@ -23,7 +23,7 @@ API de practica creada bajo la arquitectura REST
 
 		DELETE:	/clientes/{id} - Eliminar un cliente
 		
-- Productos
+	- Productos
 
 		GET:	/productos - Retorna los datos de todos los productos.
 
@@ -35,7 +35,7 @@ API de practica creada bajo la arquitectura REST
 
 		DELETE:	/productos/{id} - Eliminar un producto.
 		
-- Facturas
+	- Facturas
 
 
 		GET:	/facturas/{id} - Retorna los datos de una factura.
