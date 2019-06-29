@@ -42,7 +42,6 @@ namespace TechnicalTest.Controladores
             var facturaCreada = ServiciosFactura.CrearFactura(factura);
             string datosFactura = facturaCreada.Children().ElementAt(3).First().ToString();
             string facturaID = Regex.Replace(datosFactura, "[^0-9]", "");
-            Debug.WriteLine("ID: " + facturaID);
 
             var response = Request.CreateResponse(HttpStatusCode.Created, facturaCreada, Configuration.Formatters.JsonFormatter);
 

@@ -27,10 +27,6 @@ namespace TechnicalTest.Servicios.Clases
             {
                 if(listaProductos.Count > 0)
                 {
-                    for (int i = 0; i < listaProductos.Count; i++)
-                    {
-                        context.detallesFacturas.Add(listaProductos.ElementAt(i));
-                    }
                     context.BulkInsert(listaProductos);
                     int facturaID = listaProductos.FirstOrDefault().facturaFK;
 
