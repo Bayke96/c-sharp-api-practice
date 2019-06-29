@@ -84,3 +84,5 @@ C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\obj\Debug\TechnicalTest.
 C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\obj\Debug\TechnicalTest.csproj.CopyComplete
 C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\obj\Debug\TechnicalTest.dll
 C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\obj\Debug\TechnicalTest.pdb
+C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\bin\Z.EntityFramework.Extensions.dll
+C:\Users\rusti\source\repos\TechnicalTest\TechnicalTest\bin\Z.EntityFramework.Extensions.xml

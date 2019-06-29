@@ -31,7 +31,7 @@ namespace TechnicalTest.Servicios.Clases
                     {
                         context.detallesFacturas.Add(listaProductos.ElementAt(i));
                     }
-                    context.SaveChanges();
+                    context.BulkInsert(listaProductos);
                     int facturaID = listaProductos.FirstOrDefault().facturaFK;
 
                     int[] encontrarFKCliente = (from f in context.facturas
