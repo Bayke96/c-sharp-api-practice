@@ -65,11 +65,7 @@ namespace TechnicalTest.Servicios.Clases
             using(var context = new ServicesContext())
             {
                 var listaProductos = context.detallesFacturas.Where(x => x.facturaFK == facturaID).ToList();
-                for(int i = 0; i < listaProductos.Count; i++)
-                {
-                    context.detallesFacturas.Remove(listaProductos[i]);
-                }
-                context.SaveChanges();
+                context.detallesFacturas.BulkDelete(listaProductos);
 
                 JArray arrayJSON = new JArray();
                 arrayJSON.Add("productosFactura");
